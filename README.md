@@ -1,3 +1,6 @@
+![image](https://github.com/kimbrano04/wakanda-weather-monitoring/assets/17338297/c88bda35-1217-4485-9ead-70329057f887)
+
+
 # Wakanda Weather Monitoring System
 
 Welcome to the Wakanda Weather Monitoring System repository! This project aims to provide a robust solution for weather monitoring and forecasting in the fictional nation of Wakanda. It leverages several technologies, including Java with Spring, Kafka, Kafka Connect, MySQL, and Docker, to create a scalable and real-time weather monitoring platform.
