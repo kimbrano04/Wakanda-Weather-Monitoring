@@ -1,0 +1,19 @@
+{
+    "name": "jdbc-source-connector",
+    "config": {
+      "connector.class": "io.confluent.connect.jdbc.JdbcSourceConnector",
+      "tasks.max": 1,
+      "connection.url": "jdbc:mysql://localhost:3306/satelite_db",
+      "connection.user": "root",
+      "connection.password": "12345",
+      "mode": "incrementing",
+      "incrementing.column.name": "id",
+      "table.whitelist": "weather_satellite",
+      "topic.prefix": "weather",
+      "key.converter": "org.apache.kafka.connect.json.JsonConverter",
+      "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+      "value.converter.schemas.enable": "false",
+      "name": "jdbc-source-connector-config"
+    }
+  }
+  
